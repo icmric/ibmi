@@ -1,6 +1,5 @@
 import 'dart:math';
 import 'dart:developer' as developer;
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ibmi/utils/calculator.dart';
@@ -61,7 +60,7 @@ class _BMIPageState extends State<BMIPage> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text(
+          const Text(
             'Age yr',
             style: TextStyle(
               fontSize: 15,
@@ -325,6 +324,6 @@ class _BMIPageState extends State<BMIPage> {
         _status,
       ],
     );
-    developer.log("\x1B[32mBMI Result Saved!\x1B[0m");
+    developer.log("\x1B[32mBmi Result Saved\x1B[0m");
   }
 }

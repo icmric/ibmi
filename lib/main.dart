@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:ibmi/pages/main_page.dart';
 
 void main() {
+  developer.log("\x1B[37mIBMI app Starting\x1B[0m");
   runApp(const MyApp());
 }
 
